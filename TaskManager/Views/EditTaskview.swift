@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI
 
+//TODO: add correct edit button behaviour
 struct EditTaskView: View {
     @ObservedObject var taskVM : TaskViewModel
     

@@ -17,6 +17,7 @@ struct MainViewModifier : ViewModifier {
         content
             .navigationBarTitle("My Tasks")
             .navigationBarItems(trailing: HStack(spacing:30){
+                ///TODO: fix edit button behavior
                 EditButton()
                     .disabled(taskVM.tasks.isEmpty)
                 Button(
